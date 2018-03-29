@@ -22,7 +22,6 @@ public class ArvoreBinaria<E>
 	private Stack<ArvoreBinaria<E>> pilha;
 	private ArrayDeque<ArvoreBinaria<E>> fila;
 	private ArvoreBinaria<E> ultimoVisitado;
-	private ArvoreBinaria<E> noPos;
 
 	/**
 	 * Cria uma árvore binária com valor nulo na raiz.
